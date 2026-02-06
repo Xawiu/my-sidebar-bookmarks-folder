@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "My Sidebar Bookmarks",
+  "description": "Select a specific folder to display in your sidebar. Simple to use, with a quick access shortcut.",
+  "author": "Octopus",
+  "homepage_url": "https://github.com/Xawiu/my-sidebar-bookmarks-folder/",
+  "version": "1.0.1",
+  "icons": {
+    "48": "icons/icon.svg"
+  },
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_title": "Toggle sidebar folder",
+    "default_icon": "icons/icon.svg"
+  },
+  "sidebar_action": {
+    "default_title": "My Bookmarks",
+    "default_panel": "sidebar.html",
+    "default_icon": "icons/icon.svg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "settings/options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+B"
+      }
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "my-sidebar-bookmarks@octopus",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
