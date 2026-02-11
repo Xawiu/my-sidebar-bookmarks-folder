@@ -1,28 +1,35 @@
-# My sidebar bookmarks folder
+# 📁 My Bookmarks Folder
 
-**Streamline your browsing with a dedicated Bookmarks Sidebar.**
+**The ultimate shortcut to your bookmarks. Access any folder via Sidebar, Popup, or Context Menu.**
 
-Tired of navigating through deep menu trees to find your most-used links? This extension allows you to pin a specific bookmarks folder directly to your sidebar, keeping your workspace organized and your favorite sites just one click away.
+Stop digging through endless menus. This extension gives you instant, organized access to your favorite links exactly where you need them. Whether you prefer a permanent Sidebar, a quick Toolbar Popup, or a powerful Right-Click Menu, **My Bookmarks Folder** has you covered.
 
-**Key Features:**
+### ✨ Key Features
 
-* **Custom Folder Selection:** Choose any folder from your bookmarks (Toolbar, Menu, or Unsorted) to be the root of your sidebar.
-* **Deep Navigation:** Easily browse through subfolders with a clean, hierarchical view and an intuitive "Back" button.
-* **Modern Interface:** Supports both Light and Dark themes, blending perfectly with your Firefox browser.
-* **Fast & Lightweight:** Built with performance in mind—no tracking, no unnecessary permissions, and lightning-fast loading.
-* **Smart Layout:** Long titles are automatically handled with ellipsis, and links are slightly indented for better visual clarity.
+* **Triple Access Points:** * **Sidebar:** Keep your links pinned for deep work.
+* **Popup:** Quick access from the toolbar without losing focus.
+* **Context Menu:** A fully navigable, recursive bookmark tree available on right-click.
 
-![Sidebar Preview](https://raw.githubusercontent.com/Xawiu/my-sidebar-bookmarks-folder/main/screenshots/preview.jpg)
 
-**How to use:**
+* **Independent Configuration:** Choose one folder for your Sidebar/Popup and a **different one** for your Context Menu.
+* **Smart Navigation:** Smooth subfolder browsing with a native "Back" button and clean hierarchy.
+* **Bookmarklets Support:** Run your favorite JavaScript bookmarklets directly from any of the menus.
+* **Native Look & Feel:** Lightweight icons (Standard Globe & Folder) that blend perfectly with the Firefox UI. Supports both Light and Dark themes.
+* **Privacy First:** Built with Manifest V3. No tracking, no data collection, and minimal permissions.
 
-1. Open the sidebar using the icon or the shortcut: **Ctrl+Alt+B**.
-2. Click the "Settings" button at the bottom of the sidebar.
-3. Select the folder you want to display.
-4. Enjoy your organized bookmarks!
+### 📸 Preview
 
-# 📦 Installation
+![Sidebar Preview](https://raw.githubusercontent.com/Xawiu/my-bookmarks-folder/main/screenshots/preview.jpg)
+
+### 🚀 How to use
+
+1. **Open the Sidebar** via the icon or shortcut: `Ctrl + Alt + B`.
+2. **Access the Popup** by clicking the icon on your toolbar.
+3. **Use the Context Menu** by right-clicking anywhere on a page.
+4. **Customize:** Click the gear icon (Settings) to choose which folders should be displayed in each view.
+
+### 📦 Installation
 
 Install the official extension from the **Firefox Add-ons** store:
 
-👉 [**Get My Sidebar Bookmarks for Firefox**](https://addons.mozilla.org/pl/firefox/addon/my-sidebar-bookmarks/)
+👉 **[Get My Bookmarks Folder for Firefox](https://addons.mozilla.org/pl/firefox/addon/my-sidebar-bookmarks/)**
