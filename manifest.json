@@ -1,14 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "My Sidebar Bookmarks",
-  "description": "Select a specific folder to display in your sidebar. Simple to use, with a quick access shortcut.",
+  "default_locale": "en",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDesc_",
   "author": "Octopus",
-  "homepage_url": "https://github.com/Xawiu/my-sidebar-bookmarks-folder/",
-  "version": "1.0.4",
+  "homepage_url": "https://github.com/Xawiu/my-bookmarks-folder",
+  "version": "1.0.6",
   "icons": {
     "48": "icons/icon.svg"
   },
   "permissions": [
+    "contextMenus",
     "bookmarks",
     "storage",
     "tabs",
@@ -18,12 +20,13 @@
     "<all_urls>"
   ],
   "action": {
-    "default_title": "Toggle sidebar folder",
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "bookmarks.html?type=popup",
     "default_icon": "icons/icon.svg"
   },
   "sidebar_action": {
-    "default_title": "My Bookmarks",
-    "default_panel": "sidebar.html",
+    "default_title": "__MSG_extensionName__",
+    "default_panel": "bookmarks.html?type=sidebar",
     "default_icon": "icons/icon.svg"
   },
   "background": {

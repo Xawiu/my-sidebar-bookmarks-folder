@@ -1,0 +1,18 @@
+{
+  "extensionName": { "message": "My Bookmarks Folder" },
+  "extensionSettingsiTitle": { "message": "Ustawienia My Bookmarks Folder" },
+  "extensionDesc": { "message": "Wybierz konkretne foldery do wyświetlenia w pasku bocznym, menu podręcznym i menu kontekstowym." },
+  "shortName": { "message": "My Bookmarks" },
+  "sidebarTitle": { "message": "Folder paska bocznego:" },
+  "popupTitle": { "message": "Folder popup:" },
+  "contextTitle": { "message": "Folder menu kontekstowego:" },
+  "comfortMode": { "message": "Tryb wygodny:" },
+  "comfortModeTip": { "message": "(dla paska bocznego i okna popup)" },
+  "folderText": { "message": "Folder" },
+  "untitled": { "message": "Bez nazwy" },
+  "loading": { "message": "Ładowanie...." },
+  "memoText": { "message": "Wybierz foldery dla paska bocznego, okna popup oraz menu pod prawym przyciskiem myszy." },
+  "backButton": { "message": "... Wstecz" },
+  "settingsButton": { "message": "Ustawienia" },
+  "noFolderError": { "message": "Wybierz folder w ustawieniach." }
+}

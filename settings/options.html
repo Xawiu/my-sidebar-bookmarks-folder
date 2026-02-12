@@ -2,26 +2,47 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2> ⚙️ Sidebar Settings </h2>
+  <h2>⚙️ <span data-i18n="extensionSettingsiTitle">My Bookmarks Folder settings</span></h2>
     <article>
         <div class="options">
             <table>
                 <tr>
-                    <td class="item_name"><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23888' stroke-width='1.2' d='M1.5 3.5a1 1 0 0 1 1-1h3.5l2 2h6.5a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1z'/></svg>" Select folder:</td>
-                    <td>
-                        <div id="folder_loading">Loading...</div>
-                        <select id="topId" style="display:none;"></select>
+                    <td class="item_name" data-i18n="sidebarTitle">
+                        Sidebar folder:
                     </td>
+                    <td>
+                        <select id="sideId"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item_name" data-i18n="popupTitle">
+                        Popup folder:
+                    </td>
+                    <td>
+                        <select id="popupId"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item_name" data-i18n="contextTitle">
+                        Context menu folder:
+                    </td>
+                    <td>
+                        <select id="contextId"></select>
+                    </td>
+                </tr>
+                <tr>
+                     <td class="item_name" data-i18n="comfortMode">Use comfortable mode:</td>
+                     <td><input type="checkbox" id="isPadded"> <i data-i18n="comfortModeTip">(for sidebar and popup)</i></td>
                 </tr>
             </table>
         </div>
-        <div class="memo">
-            Select the bookmarks folder that you want to display in the sidebar.
+        <div class="memo" data-i18n="memoText">
+            Select different folders for your Sidebar, Popup and your Right-Click Context Menu.
         </div>
     </article>
-    <script src="script.js"></script>
+    <script src="options.js"></script>
 </body>
 </html>

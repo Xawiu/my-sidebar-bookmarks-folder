@@ -1,0 +1,133 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #333;
+    --item-border: #f0f0f0;
+    --item-hover: #efeff4;
+    --sep-color: #f0f0f0;
+    --back-btn-bg: #f8f8fa;
+    --footer-bg: #f0f0f4;
+    --footer-border: #d1d1d6;
+    --button-bg: #fff;
+    --button-border: #ccc;
+    --button-text: #555;
+    --item-padding-y: .25rem;
+    --font-size-base: .84375rem;
+    --item-padding-x: .75rem;
+    --min-height: 1.1rem;
+    --link-padding-left: 1.5rem;
+}
+
+body.comfort {
+    --item-padding-y: .5rem;
+    --min-height: 1.3rem;
+    --link-padding-left: 2rem;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        --bg-color: #2b2a33;
+        --text-color: #fbfbfe;
+        --item-border: #38383d;
+        --item-hover: #52525e;
+        --sep-color: #52525e;
+        --back-btn-bg: #38383d;
+        --footer-bg: #23222b;
+        --footer-border: #52525e;
+        --button-bg: #38383d;
+        --button-border: #52525e;
+        --button-text: #fbfbfe;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size-base);
+}
+
+#bookmark-list {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark {
+    display: flex;
+    align-items: center;
+    padding: var(--item-padding-y) var(--item-padding-x);
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid var(--item-border);
+    min-height: var(--min-height);
+    transition: background .1s ease;
+    cursor: pointer;
+}
+
+.is-link {
+    padding-left: var(--link-padding-left);
+}
+
+.bookmark:hover {
+    background-color: var(--item-hover);
+}
+
+.separator-line {
+    height: 1px;
+    background-color: var(--sep-color);
+    margin: 0;
+}
+
+.back-button {
+    background-color: var(--back-btn-bg);
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.favicon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: .75rem;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.bookmark-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    font-size: 1em;
+}
+
+.footer {
+    background-color: var(--footer-bg);
+    border-top: 1px solid var(--footer-border);
+    padding: .5rem;
+    flex-shrink: 0;
+}
+
+#open-settings {
+    width: 100%;
+    padding: .5rem;
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-border);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: .8125rem;
+    color: var(--button-text);
+}
+

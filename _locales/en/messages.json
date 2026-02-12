@@ -1,0 +1,18 @@
+{
+  "extensionName": { "message": "My Bookmarks Folder" },
+  "extensionSettingsiTitle": { "message": "My Bookmarks Folder settings" },
+  "extensionDesc": { "message": "Select specific folders to display bookmarks in your sidebar, popup or context menu." },
+  "shortName": { "message": "My Bookmarks" },
+  "sidebarTitle": { "message": "Sidebar folder:" },
+  "popupTitle": { "message": "Popup folder:" },
+  "contextTitle": { "message": "Context Menu folder:" },
+  "comfortMode": { "message": "Use comfortable mode:" },
+  "comfortModeTip": { "message": "(for sidebar and popup)" },
+  "folderText": { "message": "Folder" },
+  "untitled": { "message": "Untitled" },
+  "loading": { "message": "Loading...." },
+  "memoText": { "message": "Select different folders for your Sidebar, Popup, and Right-Click Menu." },
+  "backButton": { "message": "... Back" },
+  "settingsButton": { "message": "Settings" },
+  "noFolderError": { "message": "Select folder in settings." }
+}
