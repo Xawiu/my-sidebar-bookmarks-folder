@@ -1,0 +1,18 @@
+{
+  "extensionName": { "message": "My Bookmarks Folder" },
+  "extensionSettingsTitle": { "message": "My Bookmarks Folder 설정" },
+  "extensionDesc": { "message": "사이드바, 팝업 및 컨텍스트 메뉴에 표시할 특정 폴더를 선택하세요." },
+  "shortName": { "message": "북마크" },
+  "sidebarTitle": { "message": "사이드바 폴더:" },
+  "popupTitle": { "message": "팝업 폴더:" },
+  "contextTitle": { "message": "컨텍스트 메뉴 폴더:" },
+  "comfortMode": { "message": "컴포트 모드:" },
+  "comfortModeTip": { "message": "(사이드바 및 팝업용)" },
+  "folderText": { "message": "폴더" },
+  "untitled": { "message": "제목 없음" },
+  "loading": { "message": "로딩 중...." },
+  "memoText": { "message": "사이드바, 팝업 및 우ק릭 메뉴에 사용할 폴더를 선택하세요." },
+  "backButton": { "message": "... 뒤로" },
+  "settingsButton": { "message": "설정" },
+  "noFolderError": { "message": "설정에서 폴더를 선택하세요." }
+}
