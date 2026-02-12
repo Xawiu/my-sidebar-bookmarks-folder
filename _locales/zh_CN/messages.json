@@ -1,0 +1,18 @@
+{
+  "extensionName": { "message": "My Bookmarks Folder" },
+  "extensionSettingsTitle": { "message": "My Bookmarks Folder 设置" },
+  "extensionDesc": { "message": "选择要在侧边栏、弹出窗口和右键菜单中显示的特定文件夹。" },
+  "shortName": { "message": "书签" },
+  "sidebarTitle": { "message": "侧边栏文件夹:" },
+  "popupTitle": { "message": "弹出窗口文件夹:" },
+  "contextTitle": { "message": "右键菜单文件夹:" },
+  "comfortMode": { "message": "舒适模式:" },
+  "comfortModeTip": { "message": "（适用于侧边栏和弹出窗口）" },
+  "folderText": { "message": "文件夹" },
+  "untitled": { "message": "未命名" },
+  "loading": { "message": "加载中...." },
+  "memoText": { "message": "请选择侧边栏、弹出窗口和右键菜单的文件夹。" },
+  "backButton": { "message": "... 返回" },
+  "settingsButton": { "message": "设置" },
+  "noFolderError": { "message": "请在设置中选择文件夹。" }
+}
