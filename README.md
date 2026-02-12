@@ -4,31 +4,44 @@
 
 Stop digging through endless menus. This extension gives you instant, organized access to your favorite links exactly where you need them. Whether you prefer a permanent Sidebar, a quick Toolbar Popup, or a powerful Right-Click Menu, **My Bookmarks Folder** has you covered.
 
-### ✨ Key Features
+### Key Features
 
-* **Triple Access Points:** * **Sidebar:** Keep your links pinned for deep work.
-* **Popup:** Quick access from the toolbar without losing focus.
-* **Context Menu:** A fully navigable, recursive bookmark tree available on right-click.
+* **Triple Access Points:**
+* **Sidebar:** Keep your links pinned for deep work and multitasking.
+* **Popup:** Quick access from the toolbar without losing focus on your current tab.
+* **Context Menu:** A fully navigable, recursive bookmark tree available on right-click anywhere.
 
 
-* **Independent Configuration:** Choose one folder for your Sidebar/Popup and a **different one** for your Context Menu.
-* **Smart Navigation:** Smooth subfolder browsing with a native "Back" button and clean hierarchy.
+* **Customization & Comfort:**
+* **Independent Configuration:** Set different root folders for the Sidebar, Popup, and Context Menu.
+* **Display Modes:** Toggle between **Compact** (more items) and **Comfortable** (extra spacing) views to suit your style.
+
+
+* **Smart & Functional:**
+* **Native Navigation:** Smooth subfolder browsing with an intuitive "Back" button and clean hierarchy.
 * **Bookmarklets Support:** Run your favorite JavaScript bookmarklets directly from any of the menus.
-* **Native Look & Feel:** Lightweight icons (Standard Globe & Folder) that blend perfectly with the Firefox UI. Supports both Light and Dark themes.
-* **Privacy First:** Built with Manifest V3. No tracking, no data collection, and minimal permissions.
+* **Native Look & Feel:** Lightweight UI that blends perfectly with Firefox (supports both Light and Dark themes).
 
-### 📸 Preview
+
+* **Privacy & Performance:**
+* **Fast & Lightweight:** Built with Manifest V3 for optimal performance and security.
+* **Privacy First:** No tracking, no data collection, and minimal permissions required.
+* **Multi-language:** Full support for **English** and **Polish**.
+
+
+
+### Preview
 
 ![Sidebar Preview](https://raw.githubusercontent.com/Xawiu/my-bookmarks-folder/main/screenshots/preview.jpg)
 
-### 🚀 How to use
+### How to use
 
-1. **Open the Sidebar** via the icon or shortcut: `Ctrl + Alt + B`.
-2. **Access the Popup** by clicking the icon on your toolbar.
-3. **Use the Context Menu** by right-clicking anywhere on a page.
-4. **Customize:** Click the gear icon (Settings) to choose which folders should be displayed in each view.
+1. **Open the Sidebar** via the toolbar icon or shortcut: `Ctrl + Alt + B`.
+2. **Access the Popup** by clicking the extension icon on your toolbar.
+3. **Use the Context Menu** by right-clicking anywhere on any web page.
+4. **Customize:** Click the **Settings (⚙️)** button at the bottom to choose your folders and display preferences.
 
-### 📦 Installation
+### Installation
 
 Install the official extension from the **Firefox Add-ons** store:
 
